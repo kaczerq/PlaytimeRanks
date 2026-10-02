@@ -1,1 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <OutputType>Library</OutputType>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="EXILED" Version="8.11.0" />
+  </ItemGroup>
+</Project>
